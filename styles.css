@@ -1,4 +1,37 @@
+body {
+    margin: 0;
+    background-color: #efefef;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+section {
+    /* Give each section some space between each other */
+    margin: 20px;
+    border: 1px grey solid;
+    padding-left: 20px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 15px grey;
+}
+
+h1 {
+    /* Align the Title to center */
+    text-align: center;
+    margin: 0;
+    /* Give some gurth to the title */
+    padding: 10px;;
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    /* Underline the text*/
+    text-decoration: underline grey;
+}
+
 img {
+    /* Reduce the size of the image */
     width: 20%;
     height: 20%;
+    border: 1px black solid;
 }
