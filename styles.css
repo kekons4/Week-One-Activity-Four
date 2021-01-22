@@ -4,14 +4,27 @@ body {
     font-family:Arial, Helvetica, sans-serif;
 }
 
+.float-right {
+    position: relative;
+    float: right;
+}
+
+.float-left {
+    position: relative;
+    float: left;
+}
+
 section {
     /* Give each section some space between each other */
     margin: 20px;
-    border: 1px grey solid;
+    /*border: 1px grey solid;*/
     padding-left: 20px;
+    /*
     border-radius: 5px;
     background-color: white;
     box-shadow: 2px 2px 15px grey;
+    */
+    width: 40%;
 }
 
 h1 {
@@ -20,7 +33,7 @@ h1 {
     margin: 0;
     /* Give some gurth to the title */
     padding: 10px;;
-    background-color: black;
+    background-color: rgb(58, 56, 56);
     color: white;
 }
 
@@ -30,8 +43,13 @@ h2 {
 }
 
 img {
-    /* Reduce the size of the image */
-    width: 20%;
-    height: 20%;
+    /* Position the text next to the image */
+    position: relative;
+    float: left;
     border: 1px black solid;
+    margin-right: 20px;
+}
+
+li {
+    margin-bottom: 5px;
 }
